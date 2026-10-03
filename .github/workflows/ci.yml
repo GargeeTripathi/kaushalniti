@@ -1,0 +1,51 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r backend/requirements-dev.txt
+      - name: Demo data is reproducible
+        run: |
+          python scripts/generate_demo_data.py
+          git diff --exit-code data/demo
+      - name: Tests
+        run: python -m pytest
+        working-directory: backend
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t kaushalniti .
+      - name: Container answers
+        run: |
+          docker run -d -p 8000:8000 --name kn kaushalniti
+          for i in $(seq 1 20); do curl -sf localhost:8000/api/health && break || sleep 2; done
+          curl -sf localhost:8000/api/health
+          curl -sf -X POST localhost:8000/api/resolve -H 'Content-Type: application/json' \
+            -d '{"district":"Pune","trade":"Electric Vehicle Service Technician","budget":60000000,"horizon":18,"scenario":"MEDIAN"}' > /dev/null
