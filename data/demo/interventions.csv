@@ -1,0 +1,5 @@
+kind,cost_per_starter,yield,lead_time_months,capacity
+new_seats,60000,0.32,13,800
+bridge,15000,0.75,4,400
+neighbour,10000,0.6,2,250
+apprenticeship,18000,0.8,3,250

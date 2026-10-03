@@ -1,0 +1,57 @@
+district,trade,annual_seats,pipeline_yield
+Pune,Electric Vehicle Service Technician,600,0.32
+Pune,Service Technician (Heavy Motor Vehicle),460,0.4
+Pune,Four Wheeler Service Technician,1530,0.45
+Pune,Four Wheeler Service Assistant,640,0.45
+Pune,Two/Three-Wheeler Mechanic,1040,0.45
+Pune,Battery System Repair Technician,450,0.4
+Pune,Battery System Assembly Operator,440,0.45
+Pune,Electrician,1840,0.5
+Thane,Electric Vehicle Service Technician,890,0.32
+Thane,Service Technician (Heavy Motor Vehicle),470,0.4
+Thane,Four Wheeler Service Technician,1230,0.45
+Thane,Four Wheeler Service Assistant,610,0.45
+Thane,Two/Three-Wheeler Mechanic,840,0.45
+Thane,Battery System Repair Technician,260,0.4
+Thane,Battery System Assembly Operator,310,0.45
+Thane,Electrician,1480,0.5
+Nashik,Electric Vehicle Service Technician,720,0.32
+Nashik,Service Technician (Heavy Motor Vehicle),350,0.4
+Nashik,Four Wheeler Service Technician,1070,0.45
+Nashik,Four Wheeler Service Assistant,410,0.45
+Nashik,Two/Three-Wheeler Mechanic,720,0.45
+Nashik,Battery System Repair Technician,210,0.4
+Nashik,Battery System Assembly Operator,240,0.45
+Nashik,Electrician,960,0.5
+Ahmednagar,Electric Vehicle Service Technician,470,0.32
+Ahmednagar,Service Technician (Heavy Motor Vehicle),270,0.4
+Ahmednagar,Four Wheeler Service Technician,770,0.45
+Ahmednagar,Four Wheeler Service Assistant,270,0.45
+Ahmednagar,Two/Three-Wheeler Mechanic,490,0.45
+Ahmednagar,Battery System Repair Technician,150,0.4
+Ahmednagar,Battery System Assembly Operator,220,0.45
+Ahmednagar,Electrician,710,0.5
+Solapur,Electric Vehicle Service Technician,490,0.32
+Solapur,Service Technician (Heavy Motor Vehicle),190,0.4
+Solapur,Four Wheeler Service Technician,680,0.45
+Solapur,Four Wheeler Service Assistant,260,0.45
+Solapur,Two/Three-Wheeler Mechanic,410,0.45
+Solapur,Battery System Repair Technician,160,0.4
+Solapur,Battery System Assembly Operator,150,0.45
+Solapur,Electrician,620,0.5
+Satara,Electric Vehicle Service Technician,430,0.32
+Satara,Service Technician (Heavy Motor Vehicle),190,0.4
+Satara,Four Wheeler Service Technician,610,0.45
+Satara,Four Wheeler Service Assistant,240,0.45
+Satara,Two/Three-Wheeler Mechanic,410,0.45
+Satara,Battery System Repair Technician,140,0.4
+Satara,Battery System Assembly Operator,150,0.45
+Satara,Electrician,600,0.5
+Raigad,Electric Vehicle Service Technician,390,0.32
+Raigad,Service Technician (Heavy Motor Vehicle),170,0.4
+Raigad,Four Wheeler Service Technician,450,0.45
+Raigad,Four Wheeler Service Assistant,230,0.45
+Raigad,Two/Three-Wheeler Mechanic,370,0.45
+Raigad,Battery System Repair Technician,100,0.4
+Raigad,Battery System Assembly Operator,140,0.45
+Raigad,Electrician,500,0.5

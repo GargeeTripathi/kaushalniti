@@ -1,0 +1,125 @@
+{
+  "notice": "Demo demand, costs, yields, capacities, surplus pools and other unavailable district-level values are synthetic/illustrative and are explicitly labelled. They are not government statistics.",
+  "status_legend": {
+    "REAL / PUBLIC": "Taken from a public official source.",
+    "SYNTHETIC": "Invented for the SIH demonstration. Not observed anywhere.",
+    "MODELLED": "Computed by a stated model from other inputs (forecast, distance decay).",
+    "ESTIMATED": "Derived from real data by a stated heuristic; not validated by subject experts."
+  },
+  "included": [
+    {
+      "name": "Qualification register extract",
+      "file": "data/processed/qualifications.json",
+      "status": "REAL / PUBLIC",
+      "source": "National Qualifications Register, NCVET, https://nqr.gov.in",
+      "content": "480 qualifications in four sectors (Automotive, Capital Goods & Manufacturing, Electronics & HW, Power) with their occupational standards, codes, hours, NSQF level, approval and validity dates.",
+      "how": "scripts/scrape_nqr.py; scrape date is recorded inside the file.",
+      "limits": "A snapshot that can lag the live register. NCO codes are published only in the qualification PDFs and are not captured. Standard codes on the register are inconsistently formatted and sometimes missing."
+    },
+    {
+      "name": "Bridgeability graph",
+      "file": "data/processed/adjacency.json",
+      "status": "ESTIMATED",
+      "source": "Computed by backend/kaushalniti/adjacency.py from the qualification register extract.",
+      "content": "For each demo trade: source qualifications, adjacency score, matched and unmatched technical standards, estimated bridge hours.",
+      "limits": "Text similarity of standard titles only. Bridge hours are an estimate, not a validated course length. See data/metadata/adjacency_validation.csv."
+    },
+    {
+      "name": "Districts",
+      "file": "data/demo/districts.csv",
+      "status": "REAL / PUBLIC (approximate)",
+      "source": "District names and approximate coordinates of district headquarters.",
+      "content": "Seven Maharashtra districts.",
+      "limits": "Headquarters coordinates stand in for the whole district."
+    },
+    {
+      "name": "Trades",
+      "file": "data/demo/trades.csv",
+      "status": "REAL / PUBLIC",
+      "source": "Titles and ids from the National Qualifications Register.",
+      "content": "Eight trades, each linked to a register qualification id.",
+      "limits": "A small demonstration subset."
+    },
+    {
+      "name": "Demand history",
+      "file": "data/demo/demand_history.csv",
+      "status": "SYNTHETIC",
+      "source": "scripts/generate_demo_data.py (fixed seeds).",
+      "content": "60 months of monthly openings for 56 district-trade cells.",
+      "limits": "No official source publishes trade-level demand by district. The Pune EV series was shaped so the demo shortage is about 1,200."
+    },
+    {
+      "name": "Training capacity",
+      "file": "data/demo/training_capacity.csv",
+      "status": "SYNTHETIC",
+      "source": "scripts/generate_demo_data.py",
+      "content": "Annual seats and pipeline yield per cell; gives the existing pipeline supply.",
+      "limits": "Not ITI or PMKVY figures."
+    },
+    {
+      "name": "Surplus pools",
+      "file": "data/demo/surplus_pools.csv",
+      "status": "SYNTHETIC",
+      "source": "scripts/generate_demo_data.py",
+      "content": "Certified graduates not yet placed, by district and trade.",
+      "limits": "No such count is published."
+    },
+    {
+      "name": "Intervention parameters",
+      "file": "data/demo/interventions.csv, data/demo/capacities.csv, data/demo/params.json",
+      "status": "SYNTHETIC",
+      "source": "scripts/generate_demo_data.py",
+      "content": "Cost per starter, yield, lead time and capacity for each intervention; unmet-demand penalty; model constants.",
+      "limits": "Illustrative. Editable in the assumptions panel."
+    },
+    {
+      "name": "Demand forecast and scenarios",
+      "file": "(computed at run time)",
+      "status": "MODELLED",
+      "source": "backend/kaushalniti/forecast.py",
+      "content": "Damped Holt forecast; LOW and HIGH from the 10th and 90th percentile of rolling-origin back-test errors.",
+      "limits": "Back-tested on synthetic data, so the band says nothing about real-world forecast accuracy."
+    },
+    {
+      "name": "Neighbouring-district reach",
+      "file": "(computed at run time)",
+      "status": "MODELLED",
+      "source": "backend/kaushalniti/data.py",
+      "content": "Reachable share of a neighbour's surplus = exp(-distance / decay length).",
+      "limits": "Not observed movement. Census 2011 publishes no district-to-district flow matrix."
+    }
+  ],
+  "not_included": [
+    {
+      "name": "PMKVY district-wise enrolled, trained, certified, placed",
+      "status": "REAL / PUBLIC",
+      "url": "https://www.data.gov.in/resource/district-wise-enrolled-trained-assessed-certified-placed-under-pmkvy-21-april-2022",
+      "why": "Download needs a data.gov.in form; not redistributed here. Would replace the synthetic pipeline yields.",
+      "expected_file": "data/raw/pmkvy_district.csv with columns state,district,enrolled,trained,assessed,certified,placed"
+    },
+    {
+      "name": "NAPS apprentices engaged by district",
+      "status": "REAL / PUBLIC",
+      "url": "https://data.gov.in/resource/district-wise-apprentices-engaged-under-national-promotion-apprenticeship-scheme-naps-22nd",
+      "why": "Same download restriction. Would anchor apprenticeship capacity.",
+      "expected_file": "data/raw/naps_district.csv with columns financial_year,state,district,apprentices_engaged"
+    },
+    {
+      "name": "PLFS unit-level data",
+      "status": "REAL / PUBLIC",
+      "url": "https://microdata.gov.in",
+      "why": "Registration required; district-by-occupation cells are thin. Would calibrate demand levels."
+    },
+    {
+      "name": "Census 2011 table B-28 (commute distance)",
+      "status": "REAL / PUBLIC",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/13981",
+      "why": "Would calibrate the mobility decay length."
+    },
+    {
+      "name": "Live NCS, SIDH, EPFO, e-Shram feeds",
+      "status": "UNAVAILABLE",
+      "why": "No public API. KaushalNiti does not use or claim any live government feed."
+    }
+  ]
+}

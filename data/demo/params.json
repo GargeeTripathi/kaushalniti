@@ -1,0 +1,20 @@
+{
+  "demo": {
+    "state": "Maharashtra",
+    "district": "Pune",
+    "trade": "Electric Vehicle Service Technician",
+    "budget": 60000000,
+    "horizon": 18
+  },
+  "unmet_penalty": 300000,
+  "adjacency_threshold": 0.6,
+  "mobility_decay_km": 150,
+  "bridge_cost_per_hour": 50,
+  "bridge_hours_per_month": 120,
+  "placement_months": 1,
+  "scenario_probabilities": {
+    "LOW": 0.25,
+    "MEDIAN": 0.5,
+    "HIGH": 0.25
+  }
+}
