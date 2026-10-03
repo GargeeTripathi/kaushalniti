@@ -202,7 +202,7 @@ def binding_constraints(problem, x, cell, scenario):
     spare = problem.budget - cost(problem, x)
     open_paths = [p for p, xi in zip(P, x) if p.cell == cell and problem.in_time(p) and headroom(p, xi) >= 1]
     if open_paths and spare < min(p.cost for p in open_paths):
-        reasons.append({"constraint": "budget", "detail": f"budget of {problem.budget:,.0f} is fully committed"})
+        reasons.append({"constraint": "budget", "detail": "the budget is fully committed"})
     for kind in KINDS:
         cap = problem.kind_caps.get((kind, cell))
         used = kind_used.get((kind, cell), 0)

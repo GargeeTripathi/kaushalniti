@@ -13,7 +13,7 @@ from pathlib import Path
 import pandas as pd
 
 from . import forecast
-from .adjacency import load_edges
+from .adjacency import eligibility, load_edges
 from .resolver import KINDS, Pathway, Problem
 
 DATA_DIR = Path(os.environ.get("KAUSHALNITI_DATA_DIR", Path(__file__).resolve().parents[2] / "data"))
@@ -139,9 +139,11 @@ class Store:
                 source = self.trade_of[e["source_id"]]
                 pool = self.pool.get((district, source), 0.0)
                 info = {"source_trade": source, "score": e["score"], "bridge_hours": e["bridge_hours"], "pool": pool}
-                if e["score"] < p["adjacency_threshold"] or pool <= 0:
-                    why = "adjacency below threshold" if e["score"] < p["adjacency_threshold"] else "no surplus in district"
-                    skipped.append({"cell": list(cell), "kind": "bridge", **info, "reason": why})
+                blocked = eligibility(e, p["adjacency_threshold"], p["max_level_gap"])
+                if pool <= 0:
+                    blocked.append("no surplus in district")
+                if blocked:
+                    skipped.append({"cell": list(cell), "kind": "bridge", **info, "reason": "; ".join(blocked)})
                     continue
                 hours = e["bridge_hours"]
                 if hours:  # cost and duration follow the estimated bridge hours

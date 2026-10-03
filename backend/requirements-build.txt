@@ -1,0 +1,4 @@
+# Only needed to rebuild data/processed/adjacency.json with sentence embeddings.
+# The app itself reads the cached file and does not need this.
+-r requirements.txt
+sentence-transformers>=3.0

@@ -121,7 +121,7 @@ def explain(problem, rows, cell, scenario, shortage, seats, plan_workers, plan_c
         out.append(f"New training seats are not used in this scenario because {why}.")
     for s in skipped:
         if tuple(s["cell"]) == cell:
-            out.append(f"Bridge from {s['source_trade']} was not considered: {s['reason']} (adjacency {s['score']:.0%}).")
+            out.append(f"Bridge from {s['source_trade']} was not considered: {s['reason']}.")
     residual = max(0.0, shortage - plan_workers)
     if residual >= 1:
         out.append(f"A shortage of about {residual:,.0f} workers remains within the {problem.horizon}-month horizon because: "
@@ -152,6 +152,7 @@ def assumptions(iv, params, budget, horizon, scenario):
     model = [
         ("unmet_penalty", "Penalty per unmet worker", "INR", "SYNTHETIC"),
         ("adjacency_threshold", "Adjacency threshold for bridge eligibility", "share", "MODELLED"),
+        ("max_level_gap", "Largest NSQF level gap a bridge may span", "levels", "MODELLED"),
         ("mobility_decay_km", "Mobility distance-decay length", "km", "MODELLED"),
         ("bridge_cost_per_hour", "Bridge course cost per trainee-hour", "INR", "SYNTHETIC"),
         ("bridge_hours_per_month", "Bridge course hours delivered per month", "hours", "SYNTHETIC"),

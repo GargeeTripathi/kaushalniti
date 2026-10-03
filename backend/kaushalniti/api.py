@@ -9,6 +9,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from . import service
+from .adjacency import eligibility
 from .data import NotFound, store
 
 Scenario = Literal["LOW", "MEDIAN", "HIGH"]
@@ -43,6 +44,7 @@ class Overrides(BaseModel):
     mobility_decay_km: float | None = Field(None, gt=0, le=5000)
     bridge_cost_per_hour: float | None = Field(None, gt=0, le=1e5)
     bridge_hours_per_month: float | None = Field(None, gt=0, le=744)
+    max_level_gap: float | None = Field(None, ge=0, le=10)
     placement_months: int | None = Field(None, ge=0, le=24)
 
 
@@ -155,9 +157,9 @@ def adjacency(trade: str, district: str | None = None):
             continue
         source_trade = s.trade_of.get(e["source_id"])
         surplus = s.pool.get((district, source_trade)) if district and source_trade else None
-        eligible = e["score"] >= threshold
-        edges.append({**e, "demo_trade": source_trade, "surplus": surplus, "eligible": eligible,
-                      "used_by_optimiser": bool(eligible and surplus)})
+        blocked = eligibility(e, threshold, s.params["max_level_gap"])
+        edges.append({**e, "demo_trade": source_trade, "surplus": surplus, "eligible": not blocked,
+                      "not_eligible_because": blocked, "used_by_optimiser": bool(not blocked and surplus)})
     if not edges:
         raise HTTPException(404, f"no adjacency data for '{trade}'")
     a = s.adjacency

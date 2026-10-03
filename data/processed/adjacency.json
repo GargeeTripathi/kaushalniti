@@ -67,6 +67,8 @@
    ],
    "source_level": 4.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -121,6 +123,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -175,6 +179,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -229,6 +235,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -281,6 +289,8 @@
    ],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -329,6 +339,8 @@
    ],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -377,6 +389,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -425,6 +439,8 @@
    ],
    "source_level": 5.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -448,6 +464,8 @@
    "unmatched": [],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -471,6 +489,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -494,6 +514,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -517,6 +539,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -540,6 +564,8 @@
    "unmatched": [],
    "source_level": 3.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -563,6 +589,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -586,6 +614,8 @@
    "unmatched": [],
    "source_level": 4.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -609,6 +639,8 @@
    "unmatched": [],
    "source_level": 2.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -632,6 +664,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -663,6 +697,8 @@
    "unmatched": [],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -694,6 +730,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -725,6 +763,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -756,6 +796,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -786,6 +828,8 @@
    ],
    "source_level": 4.5,
    "target_level": 4.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -816,6 +860,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -846,6 +892,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -876,6 +924,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -906,6 +956,8 @@
    ],
    "source_level": 4.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -936,6 +988,8 @@
    ],
    "source_level": 5.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -966,6 +1020,8 @@
    ],
    "source_level": 2.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -996,6 +1052,8 @@
    ],
    "source_level": 5.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1027,6 +1085,8 @@
    "unmatched": [],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1057,6 +1117,8 @@
    ],
    "source_level": 4.5,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1087,6 +1149,8 @@
    ],
    "source_level": 5.0,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1117,6 +1181,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1147,6 +1213,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1177,6 +1245,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1207,6 +1277,8 @@
    ],
    "source_level": 3.5,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1237,6 +1309,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1267,6 +1341,8 @@
    ],
    "source_level": 4.5,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1297,6 +1373,8 @@
    ],
    "source_level": 2.5,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1327,6 +1405,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1357,6 +1437,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1387,6 +1469,8 @@
    ],
    "source_level": 4.5,
    "target_level": 3.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1417,6 +1501,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1485,6 +1571,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1553,6 +1641,8 @@
    ],
    "source_level": 5.0,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1621,6 +1711,8 @@
    ],
    "source_level": 4.5,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1691,6 +1783,8 @@
    ],
    "source_level": 3.5,
    "target_level": 3.0,
+   "source_sector": "Automotive",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1759,6 +1853,8 @@
    ],
    "source_level": 3.0,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1827,6 +1923,8 @@
    ],
    "source_level": 3.0,
    "target_level": 3.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1895,6 +1993,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -1963,6 +2063,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2031,6 +2133,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2099,6 +2203,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2167,6 +2273,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2235,6 +2343,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2303,6 +2413,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2371,6 +2483,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2439,6 +2553,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2507,6 +2623,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2575,6 +2693,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2643,6 +2763,8 @@
    ],
    "source_level": 5.5,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2711,6 +2833,8 @@
    ],
    "source_level": 4.5,
    "target_level": 3.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2779,6 +2903,8 @@
    ],
    "source_level": 3.0,
    "target_level": 3.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2847,6 +2973,8 @@
    ],
    "source_level": 3.0,
    "target_level": 3.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2913,6 +3041,8 @@
    ],
    "source_level": 3.0,
    "target_level": 3.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -2979,6 +3109,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -3045,6 +3177,8 @@
    ],
    "source_level": 3.0,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -3113,6 +3247,8 @@
    ],
    "source_level": 4.0,
    "target_level": 3.0,
+   "source_sector": "Capital Goods & Manufacturing",
+   "target_sector": "Automotive",
    "status": "ESTIMATED"
   },
   {
@@ -3151,6 +3287,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3187,6 +3325,8 @@
    ],
    "source_level": 5.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3223,6 +3363,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3259,6 +3401,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3295,6 +3439,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3331,6 +3477,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3367,6 +3515,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3403,6 +3553,8 @@
    ],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3439,6 +3591,8 @@
    ],
    "source_level": 5.0,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3475,6 +3629,8 @@
    ],
    "source_level": 5.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3511,6 +3667,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3547,6 +3705,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3583,6 +3743,8 @@
    ],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3619,6 +3781,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3655,6 +3819,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3691,6 +3857,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3729,6 +3897,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3767,6 +3937,8 @@
    ],
    "source_level": 5.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3803,6 +3975,8 @@
    ],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3839,6 +4013,8 @@
    ],
    "source_level": 4.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3875,6 +4051,8 @@
    ],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Electronics & HW",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3911,6 +4089,8 @@
    ],
    "source_level": 4.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3947,6 +4127,8 @@
    ],
    "source_level": 4.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -3983,6 +4165,8 @@
    ],
    "source_level": 4.5,
    "target_level": 4.0,
+   "source_sector": "Automotive",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   },
   {
@@ -4019,6 +4203,8 @@
    ],
    "source_level": 3.0,
    "target_level": 4.0,
+   "source_sector": "Power",
+   "target_sector": "Electronics & HW",
    "status": "ESTIMATED"
   }
  ]

@@ -126,6 +126,7 @@ def edge(source, target, src_std, tgt_std, vec, threshold):
         "target_technical_hours": total,
         "matched": matched, "unmatched": unmatched,
         "source_level": source["nsqf_level"], "target_level": target["nsqf_level"],
+        "source_sector": source.get("sector"), "target_sector": target.get("sector"),
         "status": "ESTIMATED",
     }
 
@@ -149,6 +150,22 @@ def build(quals, target_ids, method):
                  and e["score"] >= KEEP_SCORE]
         edges += sorted(found, key=lambda e: (-e["score"], e["source_id"]))[:TOP_SOURCES]
     return edges, frequent
+
+
+def eligibility(e, threshold, max_level_gap):
+    """Why an edge may not feed the optimiser; an empty list means it is eligible.
+
+    Text similarity alone gives false positives when standards are worded generically
+    (a CNC programmer also 'assists in routine maintenance'), so two plain guards apply.
+    """
+    reasons = []
+    if e["score"] < threshold:
+        reasons.append(f"adjacency {e['score']:.0%} is below the {threshold:.0%} threshold")
+    if e.get("source_sector") != e.get("target_sector"):
+        reasons.append("source and target are in different sectors")
+    if None not in (e["source_level"], e["target_level"]) and e["target_level"] - e["source_level"] > max_level_gap:
+        reasons.append(f"source is more than {max_level_gap:g} NSQF level below the target")
+    return reasons
 
 
 def pick_method():

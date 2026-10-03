@@ -84,6 +84,7 @@ PARAMS = {
     "demo": {"state": STATE, "district": "Pune", "trade": EV, "budget": 60000000, "horizon": 18},
     "unmet_penalty": 300000,
     "adjacency_threshold": 0.6,
+    "max_level_gap": 1,
     "mobility_decay_km": 150,
     "bridge_cost_per_hour": 50,
     "bridge_hours_per_month": 120,
