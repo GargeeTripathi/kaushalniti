@@ -118,14 +118,14 @@ def main():
             training.append((district, trade, seats, yield_))
 
     pd.DataFrame([(STATE, d, lat, lon) for d, (lat, lon, _) in DISTRICTS.items()],
-                 columns=["state", "district", "lat", "lon"]).to_csv(DEMO / "districts.csv", index=False)
-    pd.DataFrame(history, columns=["district", "trade", "month", "openings"]).to_csv(DEMO / "demand_history.csv", index=False)
-    pd.DataFrame(training, columns=["district", "trade", "annual_seats", "pipeline_yield"]).to_csv(DEMO / "training_capacity.csv", index=False)
+                 columns=["state", "district", "lat", "lon"]).to_csv(DEMO / "districts.csv", index=False, lineterminator="\n")
+    pd.DataFrame(history, columns=["district", "trade", "month", "openings"]).to_csv(DEMO / "demand_history.csv", index=False, lineterminator="\n")
+    pd.DataFrame(training, columns=["district", "trade", "annual_seats", "pipeline_yield"]).to_csv(DEMO / "training_capacity.csv", index=False, lineterminator="\n")
     pd.DataFrame([(d, t, n) for (d, t), n in SURPLUS.items()],
-                 columns=["district", "trade", "surplus"]).to_csv(DEMO / "surplus_pools.csv", index=False)
-    pd.DataFrame(INTERVENTIONS, columns=["kind", "cost_per_starter", "yield", "lead_time_months", "capacity"]).to_csv(DEMO / "interventions.csv", index=False)
-    pd.DataFrame(CAPACITIES, columns=["district", "trade", "kind", "capacity"]).to_csv(DEMO / "capacities.csv", index=False)
-    (DEMO / "params.json").write_text(json.dumps(PARAMS, indent=2) + "\n", encoding="utf-8")
+                 columns=["district", "trade", "surplus"]).to_csv(DEMO / "surplus_pools.csv", index=False, lineterminator="\n")
+    pd.DataFrame(INTERVENTIONS, columns=["kind", "cost_per_starter", "yield", "lead_time_months", "capacity"]).to_csv(DEMO / "interventions.csv", index=False, lineterminator="\n")
+    pd.DataFrame(CAPACITIES, columns=["district", "trade", "kind", "capacity"]).to_csv(DEMO / "capacities.csv", index=False, lineterminator="\n")
+    (DEMO / "params.json").write_text(json.dumps(PARAMS, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {len(history)} demand rows for {len(training)} district-trade cells to {DEMO}")
 
 
