@@ -1,0 +1,4025 @@
+{
+ "method": "sentence-transformers",
+ "model": "sentence-transformers/all-MiniLM-L6-v2",
+ "match_threshold": 0.6,
+ "status": "ESTIMATED from REAL / PUBLIC qualification data; not validated by subject experts",
+ "source": "National Qualifications Register, NCVET (https://nqr.gov.in)",
+ "register_scraped_on": "2026-10-04",
+ "built_on": "2026-10-04",
+ "generic_codes_removed_by_frequency": [
+  "CSC/N1335",
+  "CSC/N1336",
+  "DGT/VSQ/N0101",
+  "DGT/VSQ/N0102",
+  "ELE/N1002",
+  "ELE/N9905"
+ ],
+ "edges": [
+  {
+   "source_id": 9579,
+   "source": "Electric Vehicle Service Lead Technician",
+   "target_id": 13239,
+   "target": "Electric Vehicle Service technician",
+   "score": 0.667,
+   "bridge_hours": 269,
+   "target_technical_hours": 540.0,
+   "matched": [
+    {
+     "code": "ASC/N1450",
+     "title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1435",
+     "source_title": "Carry out diagnosis of electric vehicle for repair requirements",
+     "similarity": 0.716
+    },
+    {
+     "code": "ASC/N1451",
+     "title": "Carry out routine service or minor repairs on 2 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1435",
+     "source_title": "Carry out diagnosis of electric vehicle for repair requirements",
+     "similarity": 0.746
+    },
+    {
+     "code": "ASC/N1312",
+     "title": "Carry out routine service or minor repairs on 3 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1435",
+     "source_title": "Carry out diagnosis of electric vehicle for repair requirements",
+     "similarity": 0.741
+    },
+    {
+     "code": "ASC/N1452",
+     "title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1435",
+     "source_title": "Carry out diagnosis of electric vehicle for repair requirements",
+     "similarity": 0.804
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N9846",
+     "title": "High voltage and fire safety practices",
+     "hours": 180.0,
+     "best_similarity": 0.186
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11357,
+   "source": "Four wheeler Service Lead Technician",
+   "target_id": 13239,
+   "target": "Electric Vehicle Service technician",
+   "score": 0.667,
+   "bridge_hours": 279,
+   "target_technical_hours": 540.0,
+   "matched": [
+    {
+     "code": "ASC/N1450",
+     "title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1404",
+     "source_title": "Carry out diagnosis on four wheeler vehicle for repair requirements",
+     "similarity": 0.796
+    },
+    {
+     "code": "ASC/N1451",
+     "title": "Carry out routine service or minor repairs on 2 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1404",
+     "source_title": "Carry out diagnosis on four wheeler vehicle for repair requirements",
+     "similarity": 0.724
+    },
+    {
+     "code": "ASC/N1312",
+     "title": "Carry out routine service or minor repairs on 3 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1438",
+     "source_title": "Carry out service, repair and overhauling of electrical and electronic systems in the four-wheeler vehicle",
+     "similarity": 0.738
+    },
+    {
+     "code": "ASC/N1452",
+     "title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1438",
+     "source_title": "Carry out service, repair and overhauling of electrical and electronic systems in the four-wheeler vehicle",
+     "similarity": 0.645
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N9846",
+     "title": "High voltage and fire safety practices",
+     "hours": 180.0,
+     "best_similarity": 0.225
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12211,
+   "source": "Four Wheeler Service Technician",
+   "target_id": 13239,
+   "target": "Electric Vehicle Service technician",
+   "score": 0.667,
+   "bridge_hours": 308,
+   "target_technical_hours": 540.0,
+   "matched": [
+    {
+     "code": "ASC/N1450",
+     "title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1402",
+     "source_title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "similarity": 0.637
+    },
+    {
+     "code": "ASC/N1451",
+     "title": "Carry out routine service or minor repairs on 2 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1403",
+     "source_title": "Carry out routine service and minor repairs",
+     "similarity": 0.639
+    },
+    {
+     "code": "ASC/N1312",
+     "title": "Carry out routine service or minor repairs on 3 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1403",
+     "source_title": "Carry out routine service and minor repairs",
+     "similarity": 0.639
+    },
+    {
+     "code": "ASC/N1452",
+     "title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1403",
+     "source_title": "Carry out routine service and minor repairs",
+     "similarity": 0.667
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N9846",
+     "title": "High voltage and fire safety practices",
+     "hours": 180.0,
+     "best_similarity": 0.211
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12215,
+   "source": "Service Technician (Heavy Motor Vehicle)",
+   "target_id": 13239,
+   "target": "Electric Vehicle Service technician",
+   "score": 0.667,
+   "bridge_hours": 260,
+   "target_technical_hours": 540.0,
+   "matched": [
+    {
+     "code": "ASC/N1450",
+     "title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1453",
+     "source_title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "similarity": 0.759
+    },
+    {
+     "code": "ASC/N1451",
+     "title": "Carry out routine service or minor repairs on 2 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1453",
+     "source_title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "similarity": 0.753
+    },
+    {
+     "code": "ASC/N1312",
+     "title": "Carry out routine service or minor repairs on 3 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1453",
+     "source_title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "similarity": 0.757
+    },
+    {
+     "code": "ASC/N1452",
+     "title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1453",
+     "source_title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "similarity": 0.844
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N9846",
+     "title": "High voltage and fire safety practices",
+     "hours": 180.0,
+     "best_similarity": 0.137
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9526,
+   "source": "Four Wheeler Service Assistant",
+   "target_id": 13239,
+   "target": "Electric Vehicle Service technician",
+   "score": 0.5,
+   "bridge_hours": 373,
+   "target_technical_hours": 540.0,
+   "matched": [
+    {
+     "code": "ASC/N1450",
+     "title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1401",
+     "source_title": "Assist in service, maintenance, and repair of the vehicle",
+     "similarity": 0.615
+    },
+    {
+     "code": "ASC/N1312",
+     "title": "Carry out routine service or minor repairs on 3 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1401",
+     "source_title": "Assist in service, maintenance, and repair of the vehicle",
+     "similarity": 0.619
+    },
+    {
+     "code": "ASC/N1452",
+     "title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1401",
+     "source_title": "Assist in service, maintenance, and repair of the vehicle",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N9846",
+     "title": "High voltage and fire safety practices",
+     "hours": 180.0,
+     "best_similarity": 0.173
+    },
+    {
+     "code": "ASC/N1451",
+     "title": "Carry out routine service or minor repairs on 2 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.595
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14107,
+   "source": "Assistant Technician of Creative & Dynamic Lighting System",
+   "target_id": 13239,
+   "target": "Electric Vehicle Service technician",
+   "score": 0.333,
+   "bridge_hours": 420,
+   "target_technical_hours": 540.0,
+   "matched": [
+    {
+     "code": "ASC/N9846",
+     "title": "High voltage and fire safety practices",
+     "hours": 180.0,
+     "source_code": "EHW/N0101",
+     "source_title": "Apply Electrical Safety and Hazard, Management equipments",
+     "similarity": 0.668
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1450",
+     "title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.441
+    },
+    {
+     "code": "ASC/N1451",
+     "title": "Carry out routine service or minor repairs on 2 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.463
+    },
+    {
+     "code": "ASC/N1312",
+     "title": "Carry out routine service or minor repairs on 3 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.491
+    },
+    {
+     "code": "ASC/N1452",
+     "title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.485
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10122,
+   "source": "Introduction to Electric Vehicles",
+   "target_id": 13239,
+   "target": "Electric Vehicle Service technician",
+   "score": 0.167,
+   "bridge_hours": 482,
+   "target_technical_hours": 540.0,
+   "matched": [
+    {
+     "code": "ASC/N1451",
+     "title": "Carry out routine service or minor repairs on 2 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "IACE/N1304",
+     "source_title": "Two wheeler Electric Vehicle",
+     "similarity": 0.65
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N9846",
+     "title": "High voltage and fire safety practices",
+     "hours": 180.0,
+     "best_similarity": 0.535
+    },
+    {
+     "code": "ASC/N1450",
+     "title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.509
+    },
+    {
+     "code": "ASC/N1312",
+     "title": "Carry out routine service or minor repairs on 3 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.556
+    },
+    {
+     "code": "ASC/N1452",
+     "title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.479
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13244,
+   "source": "Four Wheeler Service Master Technician",
+   "target_id": 13239,
+   "target": "Electric Vehicle Service technician",
+   "score": 0.167,
+   "bridge_hours": 484,
+   "target_technical_hours": 540.0,
+   "matched": [
+    {
+     "code": "ASC/N1452",
+     "title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "source_code": "ASC/N1322",
+     "source_title": "Carry out diagnosis of vehicle mechanical, Electrical and Advanced systems by diagnostic tools",
+     "similarity": 0.618
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N9846",
+     "title": "High voltage and fire safety practices",
+     "hours": 180.0,
+     "best_similarity": 0.212
+    },
+    {
+     "code": "ASC/N1450",
+     "title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.577
+    },
+    {
+     "code": "ASC/N1451",
+     "title": "Carry out routine service or minor repairs on 2 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.58
+    },
+    {
+     "code": "ASC/N1312",
+     "title": "Carry out routine service or minor repairs on 3 wheeler electric vehicle and assist in diagnosis",
+     "hours": 90.0,
+     "best_similarity": 0.577
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9526,
+   "source": "Four Wheeler Service Assistant",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 90,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1401",
+     "source_title": "Assist in service, maintenance, and repair of the vehicle",
+     "similarity": 0.701
+    }
+   ],
+   "unmatched": [],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11274,
+   "source": "Automobile Technician (Diagnostics)",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 107,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1494",
+     "source_title": "Automobile Service and Repair (Mechanical)",
+     "similarity": 0.643
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11357,
+   "source": "Four wheeler Service Lead Technician",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 105,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1404",
+     "source_title": "Carry out diagnosis on four wheeler vehicle for repair requirements",
+     "similarity": 0.651
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12211,
+   "source": "Four Wheeler Service Technician",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 68,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1403",
+     "source_title": "Carry out routine service and minor repairs",
+     "similarity": 0.775
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13202,
+   "source": "Basic Concepts of Commercial Vehicle Service and Repair",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 109,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1316",
+     "source_title": "Basic Concepts of Commercial Vehicle Service and Repair",
+     "similarity": 0.636
+    }
+   ],
+   "unmatched": [],
+   "source_level": 3.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13204,
+   "source": "Intermediate Concepts of Commercial vehicle service and repair",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 108,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1317",
+     "source_title": "Intermediate Concepts of Commercial vehicle service and repair",
+     "similarity": 0.641
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13205,
+   "source": "Advance Concepts of Commercial Vehicle service and Repair",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 109,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1318",
+     "source_title": "Advance Concepts of Commercial Vehicle service and Repair",
+     "similarity": 0.636
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13219,
+   "source": "Automotive Body Repair Assistant",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 116,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1419",
+     "source_title": "Assist in automotive body repair service of a vehicle",
+     "similarity": 0.615
+    }
+   ],
+   "unmatched": [],
+   "source_level": 2.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13239,
+   "source": "Electric Vehicle Service technician",
+   "target_id": 12215,
+   "target": "Service Technician (Heavy Motor Vehicle)",
+   "score": 1.0,
+   "bridge_hours": 47,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ASC/N1453",
+     "title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "hours": 300.0,
+     "source_code": "ASC/N1452",
+     "source_title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "similarity": 0.844
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9526,
+   "source": "Four Wheeler Service Assistant",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 1.0,
+   "bridge_hours": 111,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "source_code": "ASC/N1401",
+     "source_title": "Assist in service, maintenance, and repair of the vehicle",
+     "similarity": 0.718
+    },
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "source_code": "ASC/N1401",
+     "source_title": "Assist in service, maintenance, and repair of the vehicle",
+     "similarity": 0.671
+    }
+   ],
+   "unmatched": [],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11357,
+   "source": "Four wheeler Service Lead Technician",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 1.0,
+   "bridge_hours": 128,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "source_code": "ASC/N1404",
+     "source_title": "Carry out diagnosis on four wheeler vehicle for repair requirements",
+     "similarity": 0.702
+    },
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "source_code": "ASC/N1405",
+     "source_title": "Carry out service, repair and overhauling of mechanical systems in four wheeler vehicle",
+     "similarity": 0.602
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12215,
+   "source": "Service Technician (Heavy Motor Vehicle)",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 1.0,
+   "bridge_hours": 93,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "source_code": "ASC/N1453",
+     "source_title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "similarity": 0.693
+    },
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "source_code": "ASC/N1453",
+     "source_title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "similarity": 0.775
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13239,
+   "source": "Electric Vehicle Service technician",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 1.0,
+   "bridge_hours": 124,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "source_code": "ASC/N1450",
+     "source_title": "Carry out routine service or minor repairs on four wheeler electric/ hybrid vehicle and assist in diagnosis",
+     "similarity": 0.637
+    },
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "source_code": "ASC/N1452",
+     "source_title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "similarity": 0.667
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10748,
+   "source": "SR. TECHNICIAN -MACHINE MAINTENANCE AND AUTOMATION",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 0.583,
+   "bridge_hours": 220,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "source_code": "",
+     "source_title": "Carry out Machine Maintenance activities (Electrical)",
+     "similarity": 0.665
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "best_similarity": 0.328
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11274,
+   "source": "Automobile Technician (Diagnostics)",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 0.583,
+   "bridge_hours": 221,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "source_code": "ASC/N1494",
+     "source_title": "Automobile Service and Repair (Mechanical)",
+     "similarity": 0.664
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "best_similarity": 0.598
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13204,
+   "source": "Intermediate Concepts of Commercial vehicle service and repair",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 0.583,
+   "bridge_hours": 230,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "source_code": "ASC/N1317",
+     "source_title": "Intermediate Concepts of Commercial vehicle service and repair",
+     "similarity": 0.618
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "best_similarity": 0.567
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14760,
+   "source": "Electronics Machine Maintenance Technician- Shop Floor",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 0.583,
+   "bridge_hours": 232,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "source_code": "ELE/N7911",
+     "source_title": "Equipment Maintenance Planning & Preparation",
+     "similarity": 0.608
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "best_similarity": 0.446
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9579,
+   "source": "Electric Vehicle Service Lead Technician",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 0.417,
+   "bridge_hours": 245,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "source_code": "ASC/N1435",
+     "source_title": "Carry out diagnosis of electric vehicle for repair requirements",
+     "similarity": 0.766
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "best_similarity": 0.595
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9703,
+   "source": "Supervisor - 2 and 3 Wheeler Electric Vehicle Services",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 0.417,
+   "bridge_hours": 249,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "source_code": "MSU/EV/N0101",
+     "source_title": "Perform fault diagnosis on vehicle",
+     "similarity": 0.743
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "best_similarity": 0.568
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13219,
+   "source": "Automotive Body Repair Assistant",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 0.417,
+   "bridge_hours": 258,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "source_code": "ASC/N1419",
+     "source_title": "Assist in automotive body repair service of a vehicle",
+     "similarity": 0.679
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "best_similarity": 0.483
+    }
+   ],
+   "source_level": 2.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13244,
+   "source": "Four Wheeler Service Master Technician",
+   "target_id": 12211,
+   "target": "Four Wheeler Service Technician",
+   "score": 0.417,
+   "bridge_hours": 254,
+   "target_technical_hours": 360.0,
+   "matched": [
+    {
+     "code": "ASC/N1402",
+     "title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "hours": 150.0,
+     "source_code": "ASC/N1407",
+     "source_title": "Perform advanced fault diagnosis on vehicle",
+     "similarity": 0.704
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ASC/N1403",
+     "title": "Carry out routine service and minor repairs",
+     "hours": 210.0,
+     "best_similarity": 0.527
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11357,
+   "source": "Four wheeler Service Lead Technician",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 1.0,
+   "bridge_hours": 98,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "source_code": "ASC/N1405",
+     "source_title": "Carry out service, repair and overhauling of mechanical systems in four wheeler vehicle",
+     "similarity": 0.638
+    },
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1405",
+     "source_title": "Carry out service, repair and overhauling of mechanical systems in four wheeler vehicle",
+     "similarity": 0.678
+    }
+   ],
+   "unmatched": [],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9579,
+   "source": "Electric Vehicle Service Lead Technician",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 105,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1437",
+     "source_title": "Carry out service, repair and overhauling of electrical and electronic systems within an aggregate in the vehicle",
+     "similarity": 0.668
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.43
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9703,
+   "source": "Supervisor - 2 and 3 Wheeler Electric Vehicle Services",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 98,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "MSU/EV/N0105",
+     "source_title": "Manage vehicle service and repair workshop",
+     "similarity": 0.69
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.534
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11274,
+   "source": "Automobile Technician (Diagnostics)",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 64,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1494",
+     "source_title": "Automobile Service and Repair (Mechanical)",
+     "similarity": 0.804
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.498
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12211,
+   "source": "Four Wheeler Service Technician",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 90,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1402",
+     "source_title": "Assist in performing diagnosis of vehicle for repair requirements",
+     "similarity": 0.718
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.459
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12215,
+   "source": "Service Technician (Heavy Motor Vehicle)",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 95,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1453",
+     "source_title": "Carry out routine service or minor repairs a heavy commercial vehicle and assist in diagnosis",
+     "similarity": 0.701
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.452
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13202,
+   "source": "Basic Concepts of Commercial Vehicle Service and Repair",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 78,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1316",
+     "source_title": "Basic Concepts of Commercial Vehicle Service and Repair",
+     "similarity": 0.756
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.473
+    }
+   ],
+   "source_level": 3.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13204,
+   "source": "Intermediate Concepts of Commercial vehicle service and repair",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 84,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1317",
+     "source_title": "Intermediate Concepts of Commercial vehicle service and repair",
+     "similarity": 0.737
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.482
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13205,
+   "source": "Advance Concepts of Commercial Vehicle service and Repair",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 82,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1318",
+     "source_title": "Advance Concepts of Commercial Vehicle service and Repair",
+     "similarity": 0.743
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.487
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13219,
+   "source": "Automotive Body Repair Assistant",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 64,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1419",
+     "source_title": "Assist in automotive body repair service of a vehicle",
+     "similarity": 0.803
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.488
+    }
+   ],
+   "source_level": 2.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13230,
+   "source": "Automotive Service Supervisor",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 114,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1319",
+     "source_title": "Manage and supervise vehicle servicing shop operations",
+     "similarity": 0.635
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.551
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13239,
+   "source": "Electric Vehicle Service technician",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 119,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "ASC/N1452",
+     "source_title": "Carry out routine service or minor repairs on heavy commercial electric vehicle and assist in diagnosis",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.593
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13656,
+   "source": "Essentials of Process Equipment Maintenance and Troubleshooting",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 123,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "NIE/ELE/N3307",
+     "source_title": "Essentials of Process Equipment Maintenance and Troubleshooting",
+     "similarity": 0.608
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.329
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13998,
+   "source": "CNC Programmer",
+   "target_id": 9526,
+   "target": "Four Wheeler Service Assistant",
+   "score": 0.984,
+   "bridge_hours": 94,
+   "target_technical_hours": 305.0,
+   "matched": [
+    {
+     "code": "ASC/N1401",
+     "title": "Assist in service, maintenance, and repair of the vehicle",
+     "hours": 300.0,
+     "source_code": "CSC/N0415",
+     "source_title": "Assist in process improvements and machine maintenance",
+     "similarity": 0.705
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Introduction to Role of an Four Wheeler Service Assistant",
+     "hours": 5.0,
+     "best_similarity": 0.325
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10124,
+   "source": "Technician - Registered Vehicle Scrapping Facility (RVSF)",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 262,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "IACE/N1261",
+     "source_title": "Safe Working Practices",
+     "similarity": 0.905
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "IACE/N1261",
+     "source_title": "Safe Working Practices",
+     "similarity": 0.686
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.454
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.401
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.204
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.114
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.186
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.234
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10316,
+   "source": "Reverse Engineering and Additive Manufacturing QA Supervisor",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 275,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CUTM/CGS/N7805",
+     "source_title": "Work safely in an organization and manage customers effectively",
+     "similarity": 0.609
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CUTM/CGS/N7805",
+     "source_title": "Work safely in an organization and manage customers effectively",
+     "similarity": 0.604
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.194
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.217
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.291
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.106
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.115
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.228
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10638,
+   "source": "Automobile Technology",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 268,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "ASC/N9828",
+     "source_title": "Work organization, management and safety",
+     "similarity": 0.679
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "ASC/N9828",
+     "source_title": "Work organization, management and safety",
+     "similarity": 0.697
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.237
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.199
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.321
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.303
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.37
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.396
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11272,
+   "source": "Automobile Jr. Technician (Service and Maintenance)",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 272,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "source_code": "ASC/N1490",
+     "source_title": "Electric Two or Three Wheeler Technology OR Four-Wheeler Technology",
+     "similarity": 0.665
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "source_code": "ASC/N1490",
+     "source_title": "Electric Two or Three Wheeler Technology OR Four-Wheeler Technology",
+     "similarity": 0.615
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "source_code": "ASC/N1484",
+     "source_title": "Tools & Equipment",
+     "similarity": 0.653
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "best_similarity": 0.528
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.308
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.471
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.354
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "best_similarity": 0.52
+    }
+   ],
+   "source_level": 3.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11929,
+   "source": "Welder (Manual Metal Arc Welding and Gas Cutting)",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 240,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "",
+     "source_title": "Apply Safe Working Practices",
+     "similarity": 1.0
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "",
+     "source_title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "similarity": 1.0
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.252
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.175
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.288
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.169
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.173
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.315
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 11933,
+   "source": "Service Assistant (Domestic Electronics Products)",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 240,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "",
+     "source_title": "Apply Safe Working Practices",
+     "similarity": 1.0
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "",
+     "source_title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "similarity": 1.0
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.25
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.155
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.384
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.258
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.229
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.232
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12001,
+   "source": "Industrial Automation Operator",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 269,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "",
+     "source_title": "Apply safety measures and practices",
+     "similarity": 0.755
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "",
+     "source_title": "Apply safety measures and practices",
+     "similarity": 0.647
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.228
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.289
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.411
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.109
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.169
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.238
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12025,
+   "source": "Digital Factory Automation engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 270,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.63
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.677
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.161
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.161
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.273
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.32
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.289
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.285
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12026,
+   "source": "Additive Manufacturing Design and Application Engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 273,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.66
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.625
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.224
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.189
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.296
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.186
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.212
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.215
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12028,
+   "source": "Robotics and Automation COBOTS Engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 270,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.63
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.677
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.18
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.167
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.223
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.129
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.189
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.247
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12029,
+   "source": "Industrial automation safety engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 270,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.63
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.677
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.237
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.126
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.238
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.214
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.223
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.227
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12030,
+   "source": "Predictive Maintenance Engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 270,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.63
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.677
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.237
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.126
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.238
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.214
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.223
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.227
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12031,
+   "source": "Digital Twin engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 270,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.63
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Health, Safety and Environment at workplace",
+     "similarity": 0.677
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.192
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.183
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.173
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.134
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.102
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.105
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12032,
+   "source": "IIoT SYSTEM ARCHITECTURE ENGINEER",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 273,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.66
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.625
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.305
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.395
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.288
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.28
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.232
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.383
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12033,
+   "source": "IIoT Data Analytics Engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 273,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow Health, Safety and Environment at workplace",
+     "similarity": 0.629
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow Health, Safety and Environment at workplace",
+     "similarity": 0.637
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.217
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.235
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.306
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.23
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.226
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.196
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12034,
+   "source": "Advanced Mechatronics Engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 273,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.66
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.625
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.249
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.19
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.227
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.165
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.267
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.195
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12035,
+   "source": "Robotics & Automation PLC SCADA Engineer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 273,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.66
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.625
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.23
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.19
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.2
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.229
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.256
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.254
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12041,
+   "source": "Augmented Reality System Designer",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 273,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.66
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "CSC/N0505",
+     "source_title": "Follow health, safety and environment guidelines at workplace",
+     "similarity": 0.625
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.253
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.103
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.312
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.029
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.046
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.122
+    }
+   ],
+   "source_level": 5.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12071,
+   "source": "Mechatronics Senior Technician",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 269,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "",
+     "source_title": "Apply safety measures and practices.",
+     "similarity": 0.755
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "",
+     "source_title": "Apply safety measures and practices.",
+     "similarity": 0.647
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.197
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.214
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.156
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.171
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.23
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.166
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 12832,
+   "source": "Service Assistant (Domestic Electronics Products)",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 240,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "",
+     "source_title": "Apply Safe Working Practices",
+     "similarity": 1.0
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "",
+     "source_title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "similarity": 1.0
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.25
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.155
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.384
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.258
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.229
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.232
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14107,
+   "source": "Assistant Technician of Creative & Dynamic Lighting System",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.273,
+   "bridge_hours": 252,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "source_code": "EHW/N0108",
+     "source_title": "Work in real job situation with emphasis on basic safety and hazards",
+     "similarity": 0.647
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "EHW/N0108",
+     "source_title": "Work in real job situation with emphasis on basic safety and hazards",
+     "similarity": 0.969
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.242
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.166
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.194
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.254
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.361
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.224
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 3408,
+   "source": "Certified Repair & Maintenance Assistant (Power Supply, Inverter & UPS)",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.182,
+   "bridge_hours": 293,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "NIE/ELE/N1414",
+     "source_title": "Safety and Security Procedures",
+     "similarity": 0.609
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "best_similarity": 0.577
+    },
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.239
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.202
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.512
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.279
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.294
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.391
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 3618,
+   "source": "Instrumentation Technician (Control Valve)",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.182,
+   "bridge_hours": 294,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "IAS/N0105",
+     "source_title": "Safety, Health and Environment Process Control",
+     "similarity": 0.602
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "best_similarity": 0.562
+    },
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.147
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.178
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.185
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.225
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.166
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.211
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 3619,
+   "source": "Junior Instrumentation Technician (Process Control)",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.182,
+   "bridge_hours": 294,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "source_code": "IAS/N0105",
+     "source_title": "Safety, Health and Environment Process Control",
+     "similarity": 0.602
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "best_similarity": 0.562
+    },
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "best_similarity": 0.051
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "best_similarity": 0.04
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.185
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.172
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.084
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.264
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9873,
+   "source": "Technician - Manufacturing and Assembly",
+   "target_id": 12847,
+   "target": "Two/Three-Wheeler Mechanic (Including LPG & CNG)",
+   "score": 0.182,
+   "bridge_hours": 290,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "",
+     "title": "Identify different types of Two/Three wheeler and their configuration",
+     "hours": 30.0,
+     "source_code": "",
+     "source_title": "13.1 Automobile Engineering - II 13.1 Parts and Functions of Two Wheelers",
+     "similarity": 0.672
+    },
+    {
+     "code": "",
+     "title": "Identify and explain the key features of two and three-wheeler engines",
+     "hours": 30.0,
+     "source_code": "",
+     "source_title": "13.1 Automobile Engineering - II 13.1 Parts and Functions of Two Wheelers",
+     "similarity": 0.647
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Apply Safe Working Practices",
+     "hours": 30.0,
+     "best_similarity": 0.181
+    },
+    {
+     "code": "",
+     "title": "Identify hand tools, measuring tools and their uses.",
+     "hours": 30.0,
+     "best_similarity": 0.352
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot any fault of engine system, fuel feed system and transmission system.",
+     "hours": 60.0,
+     "best_similarity": 0.168
+    },
+    {
+     "code": "",
+     "title": "Troubleshoot and repair the fault of brake and wheel, ignition system, electric system.",
+     "hours": 60.0,
+     "best_similarity": 0.302
+    },
+    {
+     "code": "",
+     "title": "Repair parts like fork, suspension system, steering column, mud guard, lubrication system.",
+     "hours": 30.0,
+     "best_similarity": 0.383
+    },
+    {
+     "code": "",
+     "title": "Work in real job situation with special emphasis on basic safety and hazards in this domain.",
+     "hours": 60.0,
+     "best_similarity": 0.309
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 3.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2260,
+   "source": "Battery System Assembly Operator",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.8,
+   "bridge_hours": 129,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "source_code": "ELE/N6604",
+     "source_title": "Assemble the Battery System",
+     "similarity": 0.654
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "source_code": "ELE/N6605",
+     "source_title": "Test the Battery System assembly",
+     "similarity": 0.768
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "best_similarity": 0.197
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2258,
+   "source": "Battery System Design Engineer",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.4,
+   "bridge_hours": 216,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "source_code": "ELE/N6702",
+     "source_title": "Inspect, test and implement the Battery",
+     "similarity": 0.702
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "best_similarity": 0.19
+    },
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.589
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2251,
+   "source": "Field Technician Computing And Peripherals",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 261,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N4601",
+     "source_title": "Evaluate the customer requirements and computer issues",
+     "similarity": 0.652
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.334
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.378
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2255,
+   "source": "Motor & Controller Repairing Technician",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 240,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N7006",
+     "source_title": "ELE/N7006: Identify service- related issues of the customer",
+     "similarity": 1.0
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.525
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.502
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2269,
+   "source": "Field Technician – Air Conditioner",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 263,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3101",
+     "source_title": "Engage with customer for service (ELE/N3101)",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.328
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.338
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2270,
+   "source": "Field Technician – Other Home Appliances",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 263,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3101",
+     "source_title": "Engage with customer for service (ELE/N3101)",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.326
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.338
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2286,
+   "source": "DTH Set-top Box Installer and Service Technician",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 262,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N8102",
+     "source_title": "Engaging with Customer for service",
+     "similarity": 0.63
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.245
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.309
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 3517,
+   "source": "Junior Field Technician – Home Appliances",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 263,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3101",
+     "source_title": "Engage with customer for service (ELE/N3101)",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.4
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.338
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 9703,
+   "source": "Supervisor - 2 and 3 Wheeler Electric Vehicle Services",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 260,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "MSU/EV/N0107",
+     "source_title": "Deal with Customer’s Requests and Complaints",
+     "similarity": 0.659
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.386
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.391
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13815,
+   "source": "Sr. Technician RACW* *Refrigeration Air Conditioning & Washing Machine",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 263,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3101",
+     "source_title": "Engage with customer for service",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.362
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.338
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 13888,
+   "source": "Direct Attached Storage(DAS) Set Top Box Installation & Service Technician",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 263,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3189",
+     "source_title": "Customer Requirement Analysis",
+     "similarity": 0.624
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.147
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.211
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14709,
+   "source": "DTH Set Top Box Installation & Service Technician",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 262,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N8102",
+     "source_title": "Engaging with Customer for service",
+     "similarity": 0.63
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.245
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.309
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14712,
+   "source": "Assistant Technician - TV",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 261,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3195",
+     "source_title": "Customer Interaction and Service Support",
+     "similarity": 0.647
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.294
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.33
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14767,
+   "source": "Field Technician - Air Conditioner",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 263,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3101",
+     "source_title": "Engage with customer for service",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.328
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.338
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14769,
+   "source": "Field Technician - Kitchen Appliances",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 263,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3101",
+     "source_title": "Engage with customer for service",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.359
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.338
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14861,
+   "source": "Service Technician – Home Appliances",
+   "target_id": 2256,
+   "target": "Battery System Repair Technician",
+   "score": 0.2,
+   "bridge_hours": 263,
+   "target_technical_hours": 300.0,
+   "matched": [
+    {
+     "code": "ELE/N7006",
+     "title": "Identify service-related issues of the customer",
+     "hours": 60.0,
+     "source_code": "ELE/N3101",
+     "source_title": "Engage with customer for service",
+     "similarity": 0.621
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "ELE/N7002",
+     "title": "Repair faulty parts in the Battery System",
+     "hours": 120.0,
+     "best_similarity": 0.343
+    },
+    {
+     "code": "ELE/N7001",
+     "title": "Test the Battery System after service and repair",
+     "hours": 120.0,
+     "best_similarity": 0.338
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2256,
+   "source": "Battery System Repair Technician",
+   "target_id": 2260,
+   "target": "Battery System Assembly Operator",
+   "score": 0.97,
+   "bridge_hours": 101,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "ELE/N6604",
+     "title": "Assemble the Battery System",
+     "hours": 150.0,
+     "source_code": "ELE/N7002",
+     "source_title": "Repair faulty parts in the Battery System",
+     "similarity": 0.654
+    },
+    {
+     "code": "ELE/N6605",
+     "title": "Test the Battery System assembly",
+     "hours": 170.0,
+     "source_code": "ELE/N7001",
+     "source_title": "Test the Battery System after service and repair",
+     "similarity": 0.768
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 10.0,
+     "best_similarity": 0.143
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 2258,
+   "source": "Battery System Design Engineer",
+   "target_id": 2260,
+   "target": "Battery System Assembly Operator",
+   "score": 0.97,
+   "bridge_hours": 79,
+   "target_technical_hours": 330.0,
+   "matched": [
+    {
+     "code": "ELE/N6604",
+     "title": "Assemble the Battery System",
+     "hours": 150.0,
+     "source_code": "ELE/N6701",
+     "source_title": "Design the Battery system",
+     "similarity": 0.777
+    },
+    {
+     "code": "ELE/N6605",
+     "title": "Test the Battery System assembly",
+     "hours": 170.0,
+     "source_code": "ELE/N6702",
+     "source_title": "Inspect, test and implement the Battery",
+     "similarity": 0.792
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 10.0,
+     "best_similarity": 0.229
+    }
+   ],
+   "source_level": 5.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14802,
+   "source": "Jr. Technician - Electrical and Electronics Sub- System",
+   "target_id": 3516,
+   "target": "Electrician",
+   "score": 0.518,
+   "bridge_hours": 302,
+   "target_technical_hours": 440.0,
+   "matched": [
+    {
+     "code": "ELE/N5806",
+     "title": "Planning, Design & Installation of Electrical and Electronic Sub System",
+     "hours": 228.0,
+     "source_code": "ELE/N6320",
+     "source_title": "Electrical Sub-System Assembly – Preparation & Electronics Component Integration",
+     "similarity": 0.607
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 4.0,
+     "best_similarity": 0.191
+    },
+    {
+     "code": "ELE/N5805",
+     "title": "Testing, Commissioning, Maintenance, Fault finding & Repair",
+     "hours": 208.0,
+     "best_similarity": 0.395
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 14806,
+   "source": "Mechanical Fitter (Electronics)",
+   "target_id": 3516,
+   "target": "Electrician",
+   "score": 0.518,
+   "bridge_hours": 300,
+   "target_technical_hours": 440.0,
+   "matched": [
+    {
+     "code": "ELE/N5806",
+     "title": "Planning, Design & Installation of Electrical and Electronic Sub System",
+     "hours": 228.0,
+     "source_code": "ELE/N7309",
+     "source_title": "Mechanical and Electrical Sub-System Preparation",
+     "similarity": 0.616
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 4.0,
+     "best_similarity": 0.192
+    },
+    {
+     "code": "ELE/N5805",
+     "title": "Testing, Commissioning, Maintenance, Fault finding & Repair",
+     "hours": 208.0,
+     "best_similarity": 0.244
+    }
+   ],
+   "source_level": 4.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 3408,
+   "source": "Certified Repair & Maintenance Assistant (Power Supply, Inverter & UPS)",
+   "target_id": 3516,
+   "target": "Electrician",
+   "score": 0.473,
+   "bridge_hours": 307,
+   "target_technical_hours": 440.0,
+   "matched": [
+    {
+     "code": "ELE/N5805",
+     "title": "Testing, Commissioning, Maintenance, Fault finding & Repair",
+     "hours": 208.0,
+     "source_code": "NIE/ELE/N1414",
+     "source_title": "Maintenance and Troubleshooting techniques",
+     "similarity": 0.641
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 4.0,
+     "best_similarity": 0.191
+    },
+    {
+     "code": "ELE/N5806",
+     "title": "Planning, Design & Installation of Electrical and Electronic Sub System",
+     "hours": 228.0,
+     "best_similarity": 0.387
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10637,
+   "source": "Manufacturing Team Challenge",
+   "target_id": 3516,
+   "target": "Electrician",
+   "score": 0.473,
+   "bridge_hours": 301,
+   "target_technical_hours": 440.0,
+   "matched": [
+    {
+     "code": "ELE/N5805",
+     "title": "Testing, Commissioning, Maintenance, Fault finding & Repair",
+     "hours": 208.0,
+     "source_code": "ASC/N8366",
+     "source_title": "Testing and commissioning",
+     "similarity": 0.666
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 4.0,
+     "best_similarity": 0.249
+    },
+    {
+     "code": "ELE/N5806",
+     "title": "Planning, Design & Installation of Electrical and Electronic Sub System",
+     "hours": 228.0,
+     "best_similarity": 0.303
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10641,
+   "source": "Industry 4.0",
+   "target_id": 3516,
+   "target": "Electrician",
+   "score": 0.473,
+   "bridge_hours": 279,
+   "target_technical_hours": 440.0,
+   "matched": [
+    {
+     "code": "ELE/N5805",
+     "title": "Testing, Commissioning, Maintenance, Fault finding & Repair",
+     "hours": 208.0,
+     "source_code": "ASC/N8376",
+     "source_title": "Testing, maintenance, and fault-finding",
+     "similarity": 0.772
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 4.0,
+     "best_similarity": 0.194
+    },
+    {
+     "code": "ELE/N5806",
+     "title": "Planning, Design & Installation of Electrical and Electronic Sub System",
+     "hours": 228.0,
+     "best_similarity": 0.376
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10642,
+   "source": "Robot Systems Integration",
+   "target_id": 3516,
+   "target": "Electrician",
+   "score": 0.473,
+   "bridge_hours": 264,
+   "target_technical_hours": 440.0,
+   "matched": [
+    {
+     "code": "ELE/N5805",
+     "title": "Testing, Commissioning, Maintenance, Fault finding & Repair",
+     "hours": 208.0,
+     "source_code": "ASC/N8360",
+     "source_title": "Commissioning, maintenance, and troubleshooting",
+     "similarity": 0.844
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 4.0,
+     "best_similarity": 0.217
+    },
+    {
+     "code": "ELE/N5806",
+     "title": "Planning, Design & Installation of Electrical and Electronic Sub System",
+     "hours": 228.0,
+     "best_similarity": 0.307
+    }
+   ],
+   "source_level": 4.5,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  },
+  {
+   "source_id": 10741,
+   "source": "Assistant Electrician (Domestic cum Industrial)",
+   "target_id": 3516,
+   "target": "Electrician",
+   "score": 0.473,
+   "bridge_hours": 301,
+   "target_technical_hours": 440.0,
+   "matched": [
+    {
+     "code": "ELE/N5805",
+     "title": "Testing, Commissioning, Maintenance, Fault finding & Repair",
+     "hours": 208.0,
+     "source_code": "",
+     "source_title": "Power Equipment Testing and Maintenance",
+     "similarity": 0.666
+    }
+   ],
+   "unmatched": [
+    {
+     "code": "",
+     "title": "Bridge Module",
+     "hours": 4.0,
+     "best_similarity": 0.18
+    },
+    {
+     "code": "ELE/N5806",
+     "title": "Planning, Design & Installation of Electrical and Electronic Sub System",
+     "hours": 228.0,
+     "best_similarity": 0.416
+    }
+   ],
+   "source_level": 3.0,
+   "target_level": 4.0,
+   "status": "ESTIMATED"
+  }
+ ]
+}
